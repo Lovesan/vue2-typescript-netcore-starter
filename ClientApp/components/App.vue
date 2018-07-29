@@ -3,7 +3,7 @@
         <b-card no-body class="m-5">
             <b-tabs pills card vertical>
                 <b-tab title="Hello, world!" active>
-                    <Hello :name="'World'" :initialEnthusiasm="1"></Hello>
+                    <hello :name="'World'" :initialEnthusiasm="1"></hello>
                 </b-tab>
                 <b-tab title="TODO">
 
@@ -16,9 +16,8 @@
 <script lang="ts">
     import Vue from "vue";
     import Component from "vue-class-component";
-    import Hello from "./Hello/Hello.vue";
 
-    @Component({ components: {Hello} })
+    @Component
     export default class App extends Vue {
 
     }
