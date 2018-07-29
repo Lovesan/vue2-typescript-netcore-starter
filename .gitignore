@@ -1,0 +1,31 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+.localhistory/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# VS temp dirs
+.vs
+.vscode
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Webpack output
+/wwwroot/dist/
+
+# Node dirs
+/node_modules/
+
+# VS generated compiled TS
+
