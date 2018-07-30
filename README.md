@@ -15,14 +15,14 @@ Features included:
 Building
 ========
 
-Linux users should run the following commands:
+Linux/Mac users should run the following commands:
 
 1. ```npm install``` to restore NPM packages
 2. ```npm run rebuild-prod``` to build the frontend application using Webpack
     * You can also issue ```npm run rebuild-dev``` but then you will have to use the Development Env NetCore startup(see below)
 3. ```dotnet build``` to build the C# code
 
-[Be aware, that use should also obtain latest .Net Core SDK](https://www.microsoft.com/net/download/linux-package-manager/ubuntu18-04/sdk-current)
+[Be aware, that you should also obtain latest .Net Core SDK](https://www.microsoft.com/net/download/linux-package-manager/ubuntu18-04/sdk-current)
 
 Windows users should either issue the same commands in Powershell/CMD or use Visual Studio 2017
 
